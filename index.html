@@ -9,15 +9,16 @@
 	<link rel="icon" type="image/png" href="images/h-icon.png">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Cookie:500" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
 <body>
 	<header id="header">
 		<div class="container">
-			<div class="row ">
+			<div class="row brand">
 				<div class="col-md-6 brand-logo">
-					<img class="logo" srcset="images/logo.png" alt="Hash_api logo for Portfolio">
+					<img class="logo" src="images/logo.png" alt="Hash_api logo for Portfolio">
 				</div>
-
 				<div class="col-md-6 text-right brand-name ">
 					<h1 class="name">Harsh Hariya</h1>
 					<h4>The Developer</h4>
@@ -34,7 +35,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<img class="img-responsive" srcset="images/pikachu.jpg" alt="Pokemon-Pickachu">
+					<img class="img-responsive" src="images/pikachu.jpg" alt="Pokemon-Pickachu">
 					<div class="bottom-center"> Pokemon</div>
 				</div>
 			</div>
@@ -50,16 +51,16 @@
 			</div>
 			<div class="row text-center ">
 				<div class="col-md-4">
-					<img class="img-responsive" srcset="images/Project.jpg" alt="Projects" >
+					<img class="img-responsive" src="images/Project.jpg" alt="Projects" >
 					<a href="https://codepen.io/Hashapi/full/oEmVgB/" target="_blank"><h3>Projects</h3></a>
 				</div>
 				<div class="col-md-4">
-					<img class="img-responsive" srcset="images/Blog.jpg" alt="Blogs" >
+					<img class="img-responsive" src="images/Blog.jpg" alt="Blogs" >
 					<a href="https://medium.com/me/stories/public" target="_blank"><h3>Blogs</h3></a>
 				</div>
 				<div class="col-md-4">
-					<img class="img-responsive" srcset="images/Certificate.jpg" alt="Certificates" >
-					<a href="#"><h3>Certifications</h3></a>
+					<img class="img-responsive" src="images/Certificate.jpg" alt="Certificates" >
+					<a href="#myModal" data-toggle="modal"><h3>Certifications</h3></a>
 				</div>
 			</div>
 			<div class="row">
@@ -82,7 +83,23 @@
 				</div>
 			</div>
 		</div>
-	</footer>	
-
+	</footer>
+	<div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">    
+	      <!-- Modal content-->
+	      <div class="modal-content text-center">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Certifications</h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>Coming Soon !</p>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>	      
+	    </div>
+  	</div>	
 </body>
 </html>

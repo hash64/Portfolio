@@ -36,29 +36,26 @@ hr{
 
 /* Media Quiries */
 @media screen and (min-width:600px ){
-.img-responsive{
-	min-height: 280px;
-	width: 100%;
-
-}
-	.header{
+	.brand{
 	display: flex;
 	flex-wrap: wrap;
 	}
-.brand-logo,.brand-name{
-
-	width:50%;
-}
+	.brand-logo,.brand-name{
+		width:50%;
+	}
+		.img-responsive{
+		min-height: 280px;
+		width: 100%;
+	}
 }
 @media screen and (max-width:990px) and (min-width:450px){
-	.header{
+	.brand{
 	display: flex;
 	flex-wrap: wrap;
 	}
-
 	.brand-logo{
-	width:40%;}
-
+	width:40%;
+	}
 	.brand-name{
 		padding:10%;
 		width:60%;
@@ -72,5 +69,4 @@ hr{
 		font-size: 20px;
 		width: 100%;
 	}
-
 }

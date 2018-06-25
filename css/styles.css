@@ -4,24 +4,27 @@
 hr{
 	border-top: 3px double #8c8b8b;
 }
+
 .container{
 	background: #decafe;
 	font-family: 'Cookie', cursive;
 	font-weight: 500;
-
 }
+
 .img-responsive{
 	border-radius: 5px;
 	padding: 5px;
 	box-shadow: 10px 10px 5px 0px ;
 }
+
 .bottom-center{
 	position: absolute;
-    bottom: 8px;
-    left:40%;
+    	bottom: 8px;
+    	left:40%;
    	color:#000;
    	font-size: 40px;
 }
+
 .name{
 	font-size: 50px;
 }
@@ -36,32 +39,39 @@ hr{
 
 /* Media Quiries */
 @media screen and (min-width:600px ){
+	
 	.brand{
-	display: flex;
-	flex-wrap: wrap;
+		display: flex;
+		flex-wrap: wrap;
 	}
+	
 	.brand-logo,.brand-name{
 		width:50%;
 	}
-		.img-responsive{
+	
+	.img-responsive{
 		min-height: 280px;
 		width: 100%;
 	}
 }
 @media screen and (max-width:990px) and (min-width:450px){
+	
 	.brand{
-	display: flex;
-	flex-wrap: wrap;
+		display: flex;
+		flex-wrap: wrap;
 	}
+	
 	.brand-logo{
-	width:40%;
+		width:40%;
 	}
+	
 	.brand-name{
 		padding:10%;
 		width:60%;
 	}
 }
 @media screen and (min-width: 300px) and (max-width: 450px){
+	
 	.brand-logo{
 		display: none;
 	}
